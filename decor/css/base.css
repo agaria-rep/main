@@ -92,16 +92,6 @@ footer .con {
     height: 100px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    header a {
-        font-size: 25px;
-    }
-
-    header .logo {
-        font-size: 30px;
-    }
-}
-
 @media (max-width: 720px) {
     header .logo {
         visibility: hidden;
