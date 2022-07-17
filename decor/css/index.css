@@ -1,12 +1,14 @@
 #zas {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../media/imgs/flag.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 240px;
+    background-size: 75%;
+    background-position: center;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 #zas h1 {
