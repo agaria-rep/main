@@ -6,5 +6,5 @@ function replays_zas(mode) {
     }
 }
 
-if (document.documentElement.clientWidth < 556) {replays_zas(1);}
+document.documentElement.clientWidth < 556 ? replays_zas(1) : replays_zas(0);
 window.onresize = function() {document.documentElement.clientWidth < 556 ? replays_zas(1) : replays_zas(0);}
