@@ -15,7 +15,7 @@
 }
 
 .passport {
-    background-color: var(--bbackground);
+    background-color: var(--twobackground);
     display: flex;
     justify-content: center;
     align-items: center;
