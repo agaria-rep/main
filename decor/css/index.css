@@ -84,8 +84,8 @@
 
 .news .w {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: var(--twobackground);
     text-align: center;
 }
@@ -102,8 +102,8 @@
     width: 360px;
     display: flex;
     align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .news-new h1 {
@@ -111,9 +111,10 @@
 }
 
 .news hr {
-    visibility: visible;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
 }
-
 
 @media (max-width: 720px) {
     .news .w {
@@ -124,11 +125,5 @@
 
     .news-new {
         width: 100%;
-    }
-
-    .news hr {
-        visibility: hidden;
-        width: 0px;
-        height: 0px;
-    }
+    }    
 }
