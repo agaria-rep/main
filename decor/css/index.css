@@ -80,6 +80,7 @@
     justify-content: space-between;
     background-color: var(--twobackground);
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .news .w {
@@ -117,6 +118,10 @@
 }
 
 @media (max-width: 720px) {
+    .news {
+        padding-bottom: 0px;
+    }
+
     .news .w {
         justify-content: center;
         align-items: center;
