@@ -99,6 +99,14 @@ hr {
     padding: 0%;
 }
 
+#tech {
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75px;
+}
+
 
 @media (max-width: 720px) {
     header .logo {
@@ -118,4 +126,14 @@ hr {
         padding-left: 0%;
     }
 
+    #tech {
+        flex-direction: column;
+        height: 50px;
+    }
+
+    #tech span:nth-child(2) {
+        visibility: hidden;
+        width: 0%;
+        height: 0%;
+    }
 }

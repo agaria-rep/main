@@ -99,25 +99,31 @@
     background-position: center;
     background-size: cover;
     height: 200px;
+    width: 360px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .news-new h1 {
     margin: 0%;
 }
 
+.news hr {
+    visibility: visible;
+}
 
-@media (min-width: 720px) {
+
+@media (max-width: 720px) {
     .news .w {
-        flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .news-new {
-        width: 360px;
+        width: 100%;
     }
 
     .news hr {
