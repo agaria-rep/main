@@ -92,6 +92,14 @@ footer .con {
     height: 100px;
 }
 
+hr {
+    color: black;
+    height: 1px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
 @media (max-width: 720px) {
     header .logo {
         visibility: hidden;
