@@ -95,7 +95,9 @@
 }
 
 .news-new {
-    background-color: var(--threebackground);
+    background-image: url(../../media/imgs/index/news-not-found.png);
+    background-position: center;
+    background-size: cover;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -115,7 +117,7 @@
     }
 
     .news-new {
-        width: 30%;
+        width: 360px;
     }
 
     .news hr {
