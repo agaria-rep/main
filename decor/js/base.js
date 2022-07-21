@@ -1,4 +1,4 @@
-let menu = "<header><a href=\"/\" class=\"logo\">НРА</a><nav><ul class=\"menu\"><li><a href=\"/\">Главная</a></li><li><a href=\"/news/\">Новости</a></li><li><a href=\"/info/\">Статьи</a></li></ul></nav></header>";
+let menu = "<header><a href=\"/\" class=\"logo\">НРА</a><nav><ul class=\"menu\"><li><a href=\"/\">Главная</a></li><li><a href=\"./news/\">Новости</a></li><li><a href=\"./info/\">Статьи</a></li></ul></nav></header>";
 
 document.querySelector('#menu').innerHTML = menu;
 
