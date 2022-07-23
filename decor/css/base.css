@@ -97,10 +97,12 @@ footer .con {
 }
 
 hr {
-    color: black;
-    height: 1px;
+    height: 2px;
     margin: 0%;
     padding: 0%;
+    color: var(--threebackground);
+    background-color: var(--threebackground);
+    border: 0px;
 }
 
 #tech {
@@ -110,12 +112,6 @@ hr {
     align-items: center;
     height: 75px;
 }
-
-hr {
-    color: var(--threebackground);
-    background-color: var(--threebackground);
-}
-
 
 @media (max-width: 720px) {
     header .logo {
