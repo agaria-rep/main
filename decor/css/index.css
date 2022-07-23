@@ -111,6 +111,10 @@
     margin: 0%;
 }
 
+.news-new .text {
+    margin: 3px 0px;
+}
+
 .news hr {
     visibility: hidden;
     width: 0px;
