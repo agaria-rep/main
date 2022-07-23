@@ -28,7 +28,7 @@
 }
 
 p {
-    margin: 2px 0px;
+    margin: 15px 0px;
 }
 
 
@@ -83,5 +83,9 @@ p {
         height: 0px;
         width: 0px;
         visibility: hidden;
+    }
+
+    .content .text {
+        width: 90%;
     }
 }
