@@ -1,6 +1,6 @@
 let addm = document.querySelector('#menu').innerHTML;
 
-let menu = "<header><a href=\"/\" class=\"logo\">НРА</a><nav><ul class=\"menu\"><li><a href=\"/main\">Главная</a></li><li><a href=\"/news/\">Новости</a></li><li><a href=\"/info/\">Статьи</a></li></ul></nav></header>";
+let menu = "<header><a href=\"/\" class=\"logo\">НРА</a><nav><ul class=\"menu\"><li><a href=\"/main\">Главная</a></li><li><a href=\"/main/news/\">Новости</a></li><li><a href=\"/main/info/\">Статьи</a></li></ul></nav></header>";
 
 document.querySelector('#menu').innerHTML = menu;
 

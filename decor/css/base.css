@@ -111,6 +111,11 @@ hr {
     height: 75px;
 }
 
+hr {
+    color: var(--threebackground);
+    background-color: var(--threebackground);
+}
+
 
 @media (max-width: 720px) {
     header .logo {
