@@ -100,4 +100,16 @@ p {
     .content .text {
         width: 90%;
     }
+
+    .content .info {
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .content img {
+        height: 100px;
+        width: 180px;
+        border-radius: 10px;
+    }
 }
