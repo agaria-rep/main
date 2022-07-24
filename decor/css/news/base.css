@@ -43,6 +43,23 @@ p {
     margin: 15px 0px;
 }
 
+.img-table {
+    width: 100%;
+}
+
+.img-table tr {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.img-table img {
+    height: 100px;
+    width: 180px;
+    border-radius: 0%;
+}
+
 
 .news {
     display: flex;
