@@ -23,7 +23,7 @@
 .content .w-img {
     display: flex;
     justify-content: center;
-    margin: 0px 30px;
+    margin: 30px 0px;
 }
 
 .content img {
