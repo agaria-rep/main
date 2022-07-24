@@ -10,7 +10,7 @@ function innerThreeLast() {
     for (let i = 0; (i < news_array.length) && (i < 3); i++) {
         let elem = document.createElement('div');
         elem.innerHTML = `
-        <h2><a href="main/news/${news_array[i].link}.html">${news_array[i].name}</a></h2>
+        <h2><a href="/${news_array[i].link}.html">${news_array[i].name}</a></h2>
         <div class="text">${news_array[i].text}</div>
         `
         elem.className = "news-new";
@@ -29,7 +29,7 @@ function innerLast() {
         elem.innerHTML = `
         <img src="../media/imgs/news/${news_array[i].link}.png"/>
         <div class="w">
-            <h2><a href="main/news/${news_array[i].link}.html">${news_array[i].name}</a></h2>
+            <h2><a href="/${news_array[i].link}.html">${news_array[i].name}</a></h2>
             <div class="text">${news_array[i].text}</div>
         </div>
         `
