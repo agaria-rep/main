@@ -24,7 +24,6 @@ function innerThreeLast() {
         background-size: cover;`;
 
         document.querySelector(".news .w").appendChild(elem);
-        if (i != 3) {document.querySelector("news w").appendChild(document.createElement('hr').setAttribute("noshade", "noshade"));}
     }
 }
 
