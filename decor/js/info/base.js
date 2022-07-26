@@ -23,5 +23,5 @@ function innerLast() {
 }
 
 if (document.title == "Статьи") {
-    innerLast();
+    //innerLast();
 }
