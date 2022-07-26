@@ -12,4 +12,4 @@ document.querySelector('#footer').innerHTML = footer;
 
 let tech = "<span>Сайт на технических работах! </span><span>Не все может отображатся правильно!</span>";
 
-document.querySelector('#tech').innerHTML = tech;
+//document.querySelector('#tech').innerHTML = tech;
