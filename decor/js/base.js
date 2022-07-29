@@ -1,3 +1,5 @@
+//window.location.replace("/errors/emergency-tech.html");
+
 let addm = document.querySelector('#menu').innerHTML;
 
 let menu = "<header><a href=\"/main\" class=\"logo\">НРА</a><nav><ul class=\"menu\"><li><a href=\"/main\">Главная</a></li><li><a href=\"/main/news/\">Новости</a></li><li><a href=\"/main/info/\">Статьи</a></li></ul></nav></header>";
@@ -14,4 +16,3 @@ let tech = "<span>Сайт на технических работах! </span><s
 
 //document.querySelector('#tech').innerHTML = tech;
 document.querySelector('#tech').style.height = "0px"
-
