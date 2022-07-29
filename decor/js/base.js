@@ -1,4 +1,8 @@
-//window.location.replace("/errors/emergency-tech.html");
+if (0) {
+    window.location.replace("/errors/emergency-tech.html");
+} else if (window.location.toString().includes("errors") ) {
+    window.location.replace("/");
+}
 
 let addm = document.querySelector('#menu').innerHTML;
 
