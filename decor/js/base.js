@@ -14,3 +14,4 @@ let tech = "<span>Сайт на технических работах! </span><s
 
 //document.querySelector('#tech').innerHTML = tech;
 document.querySelector('#tech').style.height = "0px"
+

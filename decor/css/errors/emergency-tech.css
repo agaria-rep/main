@@ -1,0 +1,16 @@
+h1 {
+    color: white;
+    background-color: red;
+}
+
+.desc {
+    color: white;
+    background-color: indianred;
+}
+
+* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
