@@ -1,4 +1,4 @@
-if (0) {
+if (false) {
     window.location.replace("/errors/emergency-tech.html");
 } else if (window.location.toString().includes("errors") ) {
     window.location.replace("/");
