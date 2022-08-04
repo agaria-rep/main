@@ -43,7 +43,7 @@
 
 .content h2 {
     text-align: center;
-    background-color: var(--fourbackground);
+    background-color: var(--darkbc);
     margin: 0%;
     padding: 20px 0px;
     width: 100%;
@@ -75,14 +75,14 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: var(--twobackground);
+    background-color: var(--sosobc);
     text-align: center;
     padding-bottom: 30px;
 }
 
 .info h1, .news h1 {
     text-align: center;
-    background-color: var(--fourbackground);
+    background-color: var(--sosobc);
     margin: 0%;
     padding: 20px 0px;
 }

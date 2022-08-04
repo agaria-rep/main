@@ -1,10 +1,32 @@
+* {
+    animation: def 2s forwards 1;
+}
+
+@keyframes def {
+    0% {
+        filter: blur(20px);
+    }
+    100% {
+        filter: blur(0px);
+    }
+}
+
 :root {
-    --background: #ffffff;
     --colortext: #ffffff;
-    --twobackground: #3e6791;
-    --threebackground: #26313b;
-    --fourbackground: #3c5874;
+    --lighterbc: #587FF5;
+    --lightbc: #4F72DB;
+    --sosobc: #415EB5;
+    --darkbc: #2A3D75;
+    --darkerbc: #131C36;
     --font: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root.dark {
+    --lighterbc: #1B284D;
+    --lightbc: #162140;
+    --sosobc: #121B33;
+    --darkbc: #0D1325;
+    --darkerbc: #090D1A;
 }
 
 body {
@@ -29,7 +51,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--twobackground);
+    padding: 20px 50px;
+    background-color: var(--lighterbc);
+    padding-right: 0%;
 }
 
 header a {
@@ -38,41 +62,49 @@ header a {
 }
 
 nav {
-    width: 40%;
-    background-color: var(--twobackground);
-    height: 100%;
-}
-
-.menu {
+    width: 100%;
+    background-color: var(--lighterbc);
+    height: 10%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    list-style: none;
-    width: 100%;
-    height: 100%;
     font-weight: bolder;
-    background-color: var(--twobackground);
 }
 
-.menu li {
+nav .menu-el {
     overflow: hidden;
     font-size: 15px;
-    background-color: var(--twobackground);
+    background-color: var(--lighterbc);
 }
 
-.menu a {
-    background-color: var(--twobackground);
+nav a {
+    background-color: var(--lighterbc);
+}
+
+#themeSwitch {
+    background: none;
+    border: 0px;
+    width: 30px;
+    height: 30px;
+    align-self: flex-end;
+    padding: 0%;
+    margin: 0px 10px;
+}
+
+#themeSwitch img {
+    width: 30px;
+    height: 30px;
 }
 
 .logo {
     font-size: 20px;
-    background-color: var(--twobackground);
+    background-color: var(--lighterbc);
     height: 100%;
     font-size: 30px;
 }
 
 footer {
-    background-color: var(--threebackground);
+    background-color: var(--darkerbc);
     display: flex;
     justify-content: space-around;
 }
@@ -112,7 +144,7 @@ hr {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 75px;
+    height: 0px;
 }
 
 @media (max-width: 720px) {
@@ -127,10 +159,7 @@ hr {
 
     nav {
         width: 100%;
-    }
-    
-    .menu {
-        padding-left: 0%;
+        justify-content: space-between;
     }
 
     #tech {
